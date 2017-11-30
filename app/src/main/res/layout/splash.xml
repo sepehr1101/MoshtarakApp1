@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center_horizontal|center_vertical"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <ImageView android:id="@+id/splashscreenImageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/img_splash"
+            android:layout_gravity="center"
+            android:foregroundGravity="center_horizontal|center_vertical"
+            android:scaleType="centerInside" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        style="@style/bottomView"
+        android:gravity="center_horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/img_logo_footer"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_margin="2dp" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copy_right"
+            android:textColor="@color/white"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+</RelativeLayout>

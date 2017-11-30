@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">www.abfa-tsw.ir</string>
+    <string name="navigation_drawer_open">باز کردن منو</string>
+    <string name="navigation_drawer_close">بستن منو</string>
+    
+    <string name="sale">فروش انشعاب</string>
+    <string name="last_bill">مشاهده قبض</string>
+    <string name="kardex">مشاهده صورتحساب</string>
+    <string name="tracking">پیگیری درخواستها</string>
+    <string name="mamoor">اعلام کارکرد کنتور</string>
+    <string name="train">آموزش</string>
+    <string name="help">راهنما</string>
+    <string name="support">خدمات پس از فروش</string>
+    <string name="suggest">انتقادات پیشنهادات</string>
+
+    <string name="title_activity_home">خانه</string>
+    <string name="title_activity_last_bill">مشاهده آخرین قبض</string>
+    <string name="copy_right">copyright 2017 by H.G.K co</string>
+</resources>
